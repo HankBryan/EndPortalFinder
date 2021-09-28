@@ -1,0 +1,115 @@
+body {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #0c1016;;
+  background-image: radial-gradient(#f8f8f879 8%, #0c1016 8%);
+  background-position: 0 0;
+  background-size: 20px 20px;
+  background-attachment: fixed;
+
+}
+
+h1 {
+  color: white;
+  font-style: italic;
+  font-size: 46px;
+  margin-bottom: 0px;
+  text-shadow: 2px 2px 2px rgba(255, 255, 255, 0.596);
+   
+   font-variant-caps: all-petite-caps;
+}
+
+h2 {
+  font-stretch: 10%;
+  color: rgb(255, 255, 255);
+  margin: 0;
+  font-size: 25px;
+  
+}
+h3 {
+  color: whitesmoke;
+  font-variant-caps: all-petite-caps;
+}
+
+h4{
+  color: whitesmoke;
+  font-variant-caps: all-petite-caps;
+  margin-bottom: 5px;
+  margin-top: 0px;
+  
+}
+
+input {
+  width: 40px;
+  margin: 1%;
+  background-color: lightgray;
+}
+
+label {
+  font-weight: bold;
+  color: white;
+  font-variant: small-caps;
+}
+
+p{
+  background-color: rgba(255, 78, 175, 0.589);
+  box-shadow: 3px 3px 16px rgb(202, 14, 202);
+  padding: 3%;
+  color: rgb(255, 255, 255);
+  text-align: justify;
+  width: 500px;
+  left: 50%;
+  line-height: 1.5;
+  margin-top:0px;
+}
+p.container{
+  background-color: rgba(0, 0, 0, 0.575);
+  box-shadow: none;
+  margin-top: 5%;
+  margin-left: -260;
+  
+  padding: 2%;
+  color: rgb(255, 255, 255);
+  text-align: justify;
+  width: 520px;
+  left: 50%;
+}
+p.results{
+  text-align: center;
+  color: whitesmoke;
+  font-weight: bold;
+  font-kerning: auto;
+  padding: 5%;
+  background-color: rgba(101, 131, 250, 0.541);
+  box-shadow: 5px 5px 6px rgb(57, 75, 148) inset;
+  width: 200px;
+  position: relative;
+  left: 50%;
+  margin-left: -100px;
+  
+}
+
+form{
+  background-color: rgba(84, 184, 184, 0.521);
+  margin-top: 8%;
+  margin-bottom: 20%;
+  position: relative;
+  left: 50%;
+  width: 250px; 
+  margin-left: -125px; 
+  padding-top: 1%;
+  padding-bottom: 10%;
+  box-shadow: 4px 3px 20px rgb(0, 88, 47);
+ 
+  
+  
+}
+
+button:hover{
+  color: black;
+  background-image: linear-gradient(0deg, rgb(226, 255, 62), 60%, #00FF80);
+  box-shadow: 6px 6px 2px rgb(206, 255, 70);
+  transition-duration: 0.4s;
+
+  
+}
